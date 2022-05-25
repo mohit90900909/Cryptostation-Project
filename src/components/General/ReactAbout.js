@@ -130,15 +130,6 @@ class ReactAbout extends Component {
                     dataSource={challenges}
                     renderItem={c => <List.Item>{c}</List.Item>}
                     />
-
-                    <Title level={3}>Packages used in this project:</Title>
-                    <Paragraph>The following packages were installed via <strong>npm</strong></Paragraph>
-                    
-                    <Table
-                    bordered
-                    pagination={false} 
-                    dataSource={packages} 
-                    columns={columns}></Table>
                     
                 </Content>
             </Layout>
